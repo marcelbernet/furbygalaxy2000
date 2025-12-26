@@ -1220,7 +1220,7 @@
             gameLoopInterval = setInterval(() => {
                 if (currentCharge > 0) {
                     // Baixa aprox 1.5 punts per segon (0.15 * 10)
-                    currentCharge -= 0.15;
+                    currentCharge -= 0.05;
                     if (currentCharge < 0) currentCharge = 0;
                     updateGameUI();
                 }
